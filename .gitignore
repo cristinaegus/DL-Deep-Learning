@@ -1,0 +1,419 @@
+# ================================
+# .gitignore para Proyecto de Deep Learning
+# La Neurona Química
+# ================================
+
+# ========================
+# ENTORNO VIRTUAL
+# ========================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ========================
+# PYTHON
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# celery beat schedule file
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+ENV/
+env/
+venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ========================
+# MACHINE LEARNING / DATA SCIENCE
+# ========================
+# Datos
+data/
+datasets/
+*.csv
+*.tsv
+*.dat
+*.data
+*.json
+*.xml
+*.sqlite
+*.db
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Modelos entrenados
+models/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.weights
+*.ckpt
+*.pb
+*.pth
+*.pt
+
+# TensorFlow
+*.tfevents.*
+*.meta
+*.index
+*.data-00000-of-00001
+logs/
+tensorboard_logs/
+tf_logs/
+
+# PyTorch
+lightning_logs/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+mlflow_tracking/
+
+# Experiments
+experiments/
+runs/
+outputs/
+
+# ========================
+# JUPYTER NOTEBOOK
+# ========================
+# Checkpoints
+.ipynb_checkpoints/
+
+# Jupyter cache
+.jupyter/
+
+# ========================
+# VISUALIZACIONES Y GRÁFICOS
+# ========================
+# Imágenes generadas
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.eps
+
+# Excepciones para imágenes importantes del README
+!README_images/
+!docs/images/
+!assets/
+
+# Plotly HTML exports
+*.html
+plotly_plots/
+
+# Matplotlib cache
+.matplotlib/
+
+# ========================
+# SISTEMA OPERATIVO
+# ========================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+~*
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================
+# EDITORES E IDEs
+# ========================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# PyCharm
+.idea/
+*.swp
+*.swo
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ========================
+# HERRAMIENTAS DE DESARROLLO
+# ========================
+# Node.js (si se usa para algunas herramientas)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# Configuration files with sensitive data
+config.ini
+secrets.json
+.env.local
+.env.production
+.env.staging
+
+# ========================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ========================
+# Outputs del notebook
+solubilidad_co2_cerveza_3d.jpg
+aprendizaje_solubilidad.jpg
+*.jpg
+*.png
+
+# Archivos de configuración local
+local_config.py
+
+# Resultados de experimentos
+resultados/
+output/
+
+# Cache de datos
+cache/
+.cache/
+
+# ========================
+# OTROS
+# ========================
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Large files
+*.bin
+*.exe
+*.dll
+
+# Documentation builds
+doc/_build/
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Profiling data
+*.prof
+
+# ========================
+# EXCEPCIONES IMPORTANTES
+# ========================
+# Mantener estos archivos importantes
+!README.md
+!CONFIGURACION_ENTORNO.md
+!requirements.txt
+!pyproject.toml
+!setup.py
+!LICENSE
+!.gitignore
+
+# Mantener notebooks principales
+!*.ipynb
+!La_Neurona_Quimica.ipynb
